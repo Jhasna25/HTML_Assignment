@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" width="device-width, initial-scale=1.0">
+        <title>Audio</title>
+    </head>
+    <body>
+        <h1>HTML Audio Demo</h1>
+
+        <h2>1. Audio with controls Enabled</h2>
+        <audio controls>
+            <source 
+                src="luisa_sanchez__uncorking-a-wine.wav"
+                type="audio/mpeg"
+            /> 
+            Your browser does not support the audiio element!
+        </audio>
+
+        <h2>2. Autoplay and loops</h2>
+        <audio autoplay loop muted controls>
+            <source
+                src="luisa_sanchez__uncorking-a-wine.wav"
+                type="audio/mpeg"
+            />
+        </audio>
+
+        <h2>3. Missing Audio File</h2>
+        <audio controls>
+            <source
+                src=""
+                type=""
+            />
+        </audio>
+    </body>
+</html>

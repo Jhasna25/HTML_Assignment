@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        button{
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover{
+            background-color: #0056b3;
+        }
+
+        .danger{
+            background-color: red;
+            cursor: pointer;
+        }
+
+        .disabled{
+            background-color: gray;
+            cursor: not-allowed;
+        }
+
+        .success{
+            padding: 10px 20px;
+            background-color: aqua;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .success:hover{
+            background-color: aquamarine;
+        }
+
+        .reset{
+            padding: 10px 20px;
+            background-color: #a00808;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .reset:hover{
+            background-color: #b84343;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>HTML buttons</h1>
+
+    <button>Log In</button>
+    <br/>
+    <br/>
+    <button class="danger">Delete</button>
+    <br/>
+    <br/>
+    <button class="disabled">Disabled</button>
+    <br/>
+    <br/>
+
+    <input type="submit" class="success"  value="SUBMIT">
+    <br/>
+    <br/>
+    <input type="reset" class="reset" value="RESET">
+</body>
+</html>
